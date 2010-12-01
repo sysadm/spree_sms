@@ -1,4 +1,2 @@
-class SmsruManageController < ApplicationController
-  resource_controller...............................................................................................................................
-  layout 'admin'                                                                                                                                    
+class SmsruManageController < Spree::BaseController
 end

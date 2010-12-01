@@ -1,5 +1,7 @@
 class Admin::SmsruManageController < Admin::BaseController
-  resource_controller                                                                                                                               
-  layout 'admin'
-    
+  def index
+  end
+
+  def test
+  end
 end
