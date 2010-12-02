@@ -1,0 +1,53 @@
+1. Для начала хотел записать те линки, которые показались мне интересными.
+
+Очень интересная статья для англоязычных девелоперов на тему выбора СМС гейта.
+Описано всё от выбора цен, по возможные протоколы коммуникации:
+http://www.developershome.com/sms/howToChooseSMSGateway.asp
+
+Сводная таблица с различиями между операторами СМС гейтов:
+http://www.developershome.com/sms/smsGatewayProvComp.asp
+
+Оператор сам по себе а также 84 апи на других операторв с их описанием:
+http://www.programmableweb.com/api/gomotext-sms-gateway
+
+Операторы коммерческие, обычно есть версия trial или очень ограниченный
+free account. Где-то около 5 шаровых СМС (обычно страница с API):
+http://www.textmagic.com/app/pages/en/products/bulk-sms-gateway-api
+http://www.tmcsms.com/DEVELOPERS/tabid/65/Default.aspx
+http://www.celltrust.com/info/industries/CellTrust-Industries-Developers.html
+http://www.message-media.com/sms-gateway.html
+http://www.aql.com/sms/developers/outbound/
+http://www.smsmatrix.com/?sms-gateway
+http://www.netsize.com/SDK/Developers.htm
+
+очень похожая парочка, наверное одна контора:
+http://www.wire2air.com/smsgateway-api.asp
+http://www.txtimpact.com/api.asp
+
+Польские операторы, довольно навороченые:
+http://promosms.pl/zaawansowane-opcje-http-api-sms-do-wysylania-masowej-ilosci-wiadomosci-tekstowych-na-telefon-komorkowy.html
+http://www.smeskom.pl/home?gclid=CPz-mfSRzKUCFdQ_3godITLvmQ#  (у этого вообще MySQL api имеется, но дорого)
+http://www.smsapi.pl/
+http://sms-api.pl/
+http://www.gatesms.eu/api
+
+Рассейские:
+http://sms.ru/
+http://websms.ru
+http://nanosms.ru/
+http://www.smsprogroup.ru/
+
+Список шаровых операторов:
+http://justtechnika.com/articles/free-sms-gateway-api/
+проще всего конечно напрячь google запросом free sms gateway
+
+первые в этом списке:
+http://www.zeepmobile.com/ (по моему ограничение only US member)
+http://www.freesmsapi.com/
+
+2. Проблемы:
+Параметры у всех операторов хоть и похожие, но есть масса отличий. И параметров
+много, иногда более 10-ти. Количество параметров (в том числе со статусом
+require) нерегулярное. А при всём разнообразии параметров хочется использовать
+стандартные методы отправки/сбора данных, а для конфигурации рисовать разные
+формы в зависимости от операторов.
