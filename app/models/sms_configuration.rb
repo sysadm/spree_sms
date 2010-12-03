@@ -1,4 +1,4 @@
-class SmsruConfiguration < ActiveRecord::Base
+class SmsConfiguration < ActiveRecord::Base
   validates_presence_of :login
   validates_presence_of :password
 

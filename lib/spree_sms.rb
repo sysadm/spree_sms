@@ -1,7 +1,7 @@
 require 'spree_core'
-require 'spree_smsru_hooks'
+require 'spree_sms_hooks'
 
-module SpreeSmsru
+module SpreeSms
   class Engine < Rails::Engine
 
     config.autoload_paths += %W(#{config.root}/lib)

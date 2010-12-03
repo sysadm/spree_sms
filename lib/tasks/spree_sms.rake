@@ -1,7 +1,7 @@
 require 'fileutils'
 include FileUtils::Verbose
 
-namespace :spree_smsru do
+namespace :spree_sms do
   namespace :db do
     desc "Custom migrations"
     task :migrate do
@@ -27,7 +27,7 @@ namespace :spree_smsru do
 
     desc "Loads a specified fixture using rake db:load_file[filename.rb]"
     task :seed do
-      Rake::Task["spree_smsru:db:load_dir"].invoke("default")
+      Rake::Task["spree_sms:db:load_dir"].invoke("default")
     end
 
     desc "Loads a specified fixture using rake db:load_file[filename.rb]"

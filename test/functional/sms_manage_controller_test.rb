@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class SmsruManageControllerTest < ActionController::TestCase
+class SmsManageControllerTest < ActionController::TestCase
   # Replace this with your real tests.
   test "the truth" do
     assert true

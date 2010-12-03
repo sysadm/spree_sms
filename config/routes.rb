@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   namespace :admin do
-    match 'sms' => 'smsru_manage#index'
-    match 'smsru_manage' => 'smsru_manage#index'
-    resource :smsru_manage
+    match 'sms' => 'sms_manage#index'
+    match 'sms_manage' => 'sms_manage#index'
+    resource :sms_manage
   end
 end

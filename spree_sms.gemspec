@@ -1,14 +1,14 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
-  s.name        = 'spree_smsru'
+  s.name        = 'spree_sms'
   s.version     = '1.0.0'
-  s.summary     = 'Spree extension to send SMS using web service sms.ru.'
-  s.description = 'Spree extension to send SMS with changing of a transaction status using web service sms.ru.'
+  s.summary     = 'Spree extension to send SMS using every SMS gateway service in the world.'
+  s.description = 'Spree extension to send info/status SMS to a owner/developer using every SMS gateway service.'
   s.required_ruby_version = '>= 1.8.7'
 
   s.author            = 'Jerzy Sładkowski & Artem Jarucki'
   s.email             = 'jerzy.sladkowski@gmail.com'
-  s.homepage          = 'https://github.com/sysadm/spree_smsru'
+  s.homepage          = 'https://github.com/sysadm/spree_sms'
   # s.rubyforge_project = 'actionmailer'
 
   s.files        = Dir['CHANGELOG', 'README', 'LICENSE', 'lib/**/*', 'app/**/*']

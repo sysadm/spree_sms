@@ -1,8 +1,8 @@
-namespace :spree_smsru do
+namespace :spree_sms do
   desc "Copies all migrations and assets (NOTE: This will be obsolete with Rails 3.1)"
   task :install do
-    Rake::Task['spree_smsru:install:migrations'].invoke
-    Rake::Task['spree_smsru:install:assets'].invoke
+    Rake::Task['spree_sms:install:migrations'].invoke
+    Rake::Task['spree_sms:install:assets'].invoke
   end
 
   namespace :install do

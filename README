@@ -1,22 +1,20 @@
-SpreeSmsru
+SpreeSms
 ==========
 
-Spree extension to send SMS with changing of a transaction status using web service sms.ru.
+Spree extension to send info/status SMS to a owner/developer using every SMS gateway service.
 
 Installation
 ============
 
 Add you Gemfile-file following line:
-  gem 'spree_smsru', :require => 'spree_smsru', :git => 'git://github.com/sysadm/spree_smsru.git'
+  gem 'spree_sms', :require => 'spree_sms', :git => 'git://github.com/sysadm/spree_sms.git'
 
 Run: bundle install
 
 Classic installation:
-a) rake spree_smsru:install
+a) rake spree_sms:install
 b) rake db:migrate
-
-Edit config/smsru.yml
 
 Pull requests welcome
 
-Copyright (c) 2010 [Jerzy Sładkowski & Artem Jarucki], released under the New BSD License
+Copyright (c) 2010 [Jerzy Sładkowski & Artem Jarocki], released under the New BSD License
